@@ -29,7 +29,7 @@ Access the Swagger documentation by navigating to [http://localhost:4000/api-doc
 
 ### 5. Using Postman
 If you prefer using Postman, you can access the following endpoints:
-- **Create a new blog post**: `POST [http://localhost:4000/api/posts](http://localhost:4000/api/posts)`
+- **Create a new blog post**: `POST` [http://localhost:4000/api/posts](http://localhost:4000/api/posts)
   ```json
   {
     "title": "Sample Blog Post",
@@ -37,16 +37,16 @@ If you prefer using Postman, you can access the following endpoints:
     "author": "John Doe"
   }
   ```
-- **Get all blog posts**: `GET [http://localhost:4000/api/posts](http://localhost:4000/api/posts)`
-- **Get a single blog post by ID**: `GET [http://localhost:4000/api/posts/:postId](http://localhost:4000/api/posts/:postId)`
-- **Update a single blog post by ID**: `PUT [http://localhost:4000/api/posts/:postId](http://localhost:4000/api/posts/:postId)`
+- **Get all blog posts**: `GET` [http://localhost:4000/api/posts](http://localhost:4000/api/posts)
+- **Get a single blog post by ID**: `GET` [http://localhost:4000/api/posts/:postId](http://localhost:4000/api/posts/:postId)
+- **Update a single blog post by ID**: `PUT` [http://localhost:4000/api/posts/:postId](http://localhost:4000/api/posts/:postId)
   ```json
   {
     "title": "Updated Blog Post Title",
     "content": "This is the updated content of the blog post."
   }
   ```
-- **Delete a single blog post by ID**: `DELETE [http://localhost:4000/api/posts/:postId](http://localhost:4000/api/posts/:postId)`
+- **Delete a single blog post by ID**: `DELETE` [http://localhost:4000/api/posts/:postId](http://localhost:4000/api/posts/:postId)
 
 ## Project Structure
 
