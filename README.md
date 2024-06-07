@@ -6,6 +6,10 @@ This is a RESTful API for a simple blog application that allows users to perform
 
 1. **Clone the Application**
    - First, clone the application repository to your local machine.
+   - Run 
+    `bash 
+    git clone https://github.com/ayowilfred95/blog-application
+    `
 
 2. **Install Dependencies**
    - Run `npm install` to install all the required dependencies.
