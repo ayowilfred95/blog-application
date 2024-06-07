@@ -12,10 +12,18 @@ This is a RESTful API for a simple blog application that allows users to perform
     ```
 
 2. **Install Dependencies**
-   - Run `npm install` to install all the required dependencies.
+   - Run 
+   ```bash 
+   npm install
+   ``` 
+   to install all the required dependencies.
 
 3. **Start the Application**
-   - Run ```bash npm start``` to start the application locally.
+   - Run 
+   ```bash 
+   npm start
+   ``` 
+   to start the application locally.
 
 4. **Testing with Swagger**
    - Navigate to [http://localhost:4000/api-docs](http://localhost:4000/api-docs) to access the Swagger documentation.
